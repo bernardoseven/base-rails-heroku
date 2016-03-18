@@ -103,4 +103,10 @@ touch Procfile and fill with:
 
 web: bundle exec puma -C config/puma.rb
 
+== HEROKU SETUP
+we have to have root to some action in a controller and we are ready!
+git push heroku
+heroku create
+heroku rename ....
+
 And we are ready to deploy in HEROKU.
